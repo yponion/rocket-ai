@@ -1,0 +1,56 @@
+export const sajuData = [
+  [" ", "時", "日", "月", "年"],
+  [
+    { chinese: "十星", mean: "십성" },
+    { chinese: "傷官", mean: "상관" },
+    { chinese: "比肩", mean: "비견" },
+    { chinese: "傷官", mean: "상관" },
+    { chinese: "傷官", mean: "상관" },
+  ],
+  [
+    { chinese: "天干", mean: "천간" },
+    { chinese1: "壬", chinese2: "陽水", mean: "임", bg: 'bg-[#2F2F2F]', fg: 'text-white' },
+    { chinese1: "丁", chinese2: "陰火", mean: "정", bg: 'bg-[#C23030]', fg: 'text-white' },
+    { chinese1: "癸", chinese2: "陰水", mean: "계", bg: 'bg-[#2F2F2F]', fg: 'text-white' },
+    { chinese1: "癸", chinese2: "陰水", mean: "계", bg: 'bg-[#2F2F2F]', fg: 'text-white' },
+  ],
+  [
+    { chinese: "地支", mean: "지지" },
+    { chinese1: "寅", chinese2: "陽木", mean: "인", bg: 'bg-[#18868C]', fg: 'text-white' },
+    { chinese1: "巳", chinese2: "陰火", mean: "사", bg: 'bg-[#C23030]', fg: 'text-white' },
+    { chinese1: "亥", chinese2: "陰水", mean: "해", bg: 'bg-[#2F2F2F]', fg: 'text-white' },
+    { chinese1: "酉", chinese2: "陰金", mean: "유", bg: 'bg-[F9F9F9]', fg: 'text-black', border: 'border-black' },
+  ],
+  [
+    { chinese: "十星", mean: "십성" },
+    { chinese: "比肩", mean: "비견" },
+    { chinese: "劫財", mean: "겁재" },
+    { chinese: "食神", mean: "식신" },
+    { chinese: "偏財", mean: "편재" },
+  ],
+  [
+    { chinese: "十二運星", mean: "십이운성" },
+    { chinese: "死", mean: "사" },
+    { chinese: "帝旺", mean: "제왕" },
+    { chinese: "胎", mean: "태" },
+    { chinese: "長生", mean: "장생" },
+  ],
+  [
+    { chinese: "十二神殺", mean: "십이신살" },
+    { chinese: "劫殺", mean: "겁살" },
+    { chinese: "地殺", mean: "지살" },
+    { chinese: "驛馬殺", mean: "역마살" },
+    { chinese: "將星殺", mean: "장성살" },
+  ],
+  [
+    { chinese: "貴人", mean: "귀인" },
+    undefined,
+    undefined,
+    { chinese: "天乙", mean: "천을귀인" },
+    [
+      { chinese: "天乙", mean: "천을귀인" },
+      { chinese: "太極", mean: "태극귀인" },
+      { chinese: "文昌", mean: "문창귀인" },
+    ],
+  ],
+]
