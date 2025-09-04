@@ -107,16 +107,16 @@ const parseData = (data: SajuCellData, isFirst: boolean) => {
     return (
       <div
         className={cn(
-          "relative rounded-[3.35vw] w-[14.79vw] h-[14.79vw] xs:w-[66.26px] xs:h-[66.26px] my-[6px] flex items-center justify-center",
+          "relative rounded-[3.35vw] xs:rounded-[15px] w-[14.79vw] h-[14.79vw] xs:w-[66.26px] xs:h-[66.26px] my-[6px] flex items-center justify-center",
           bg,
           fg,
           border,
           border && "border"
         )}
       >
-        <small className="absolute top-[1.07vw] text-[2.03vw] xs:text-[9.1px]">{mean}</small>
+        <small className="absolute top-[1.07vw] xs:top-[4.8px] text-[2.03vw] xs:text-[9.1px]">{mean}</small>
         <p className="text-[6.7vw] font-zen-antique xs:text-[30.06px]">{chinese1}</p>
-        <small className="absolute bottom-[0.5vw] text-[2.23vw] font-zen-maru-gothic xs:text-[10.01px]">
+        <small className="absolute bottom-[0.5vw] xs:bottom-[2.24px] text-[2.23vw] font-zen-maru-gothic xs:text-[10.01px]">
           {chinese2}
         </small>
       </div>
