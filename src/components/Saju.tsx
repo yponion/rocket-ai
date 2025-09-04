@@ -42,6 +42,7 @@ const SajuTable = () => {
     <div className="text-black">
       {sajuData.map((row, rowIndex) => (
         <div
+          key={rowIndex}
           className={cn(
             "w-full grid grid-cols-5 border-b border-black",
             rowIndex === 2 && "border-b-[0.5px] border-[#9B9B9B]"
