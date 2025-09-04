@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Saju from "@/components/Saju";
 
 export default function Home() {
   return (
@@ -17,7 +18,7 @@ export default function Home() {
           <p className="absolute top-[50.5%] left-[38.27%] -translate-y-[50%] -translate-x-[50%] text-center whitespace-pre-line text-[4.27vw] xs:text-[19px] text-[#424242] leading-[150%]">
             {"제가 oo님의 사주를\n보기 쉽게 표로 정리했어요"}
           </p>
-          {/* TODO: 사주 테이블 컴포넌트 추가 */}
+          <Saju />
         </section>
       </main>
     </>
